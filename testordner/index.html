@@ -1,0 +1,49 @@
+<!-- login.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="login-form" onsubmit="login(event)">
+            <h1>Horrorsirens Login</h1>
+            <div class="input-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+            <button type="button" onclick="showChangePasswordForm()">Informationen</button>
+        </form>
+
+        <!-- Passwort ändern Formular (anfangs ausgeblendet) -->
+        <form class="change-password-form" onsubmit="changePassword(event)">
+            <img src="horrorsirens.png" alt="horror-sirens" class="profile-image">
+            <div class="input-group">
+               <h2>Benutzer:</h2>
+               <div class="user">
+               <h3>Philip</h3>
+               <h3>Lea</h3>
+               <h3>Miriam</h3>
+               </div>
+        
+            </div>
+           
+        
+            <button type="button" onclick="hideChangePasswordForm()">Zurück</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

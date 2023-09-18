@@ -1,0 +1,187 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    min-height: 100vh; /* Mindesthöhe des gesamten Viewports */
+    background-color: #f2f2f2;
+    display: flex;
+}
+
+header {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./horrorsirens.png'); /* Pfad zum unscharfen Foto */
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(59999999999px); /* Unscharfer Effekt - je höher der Wert, desto stärker der Effekt */
+    height: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    text-align: right;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    flex: 1; /* Der Hauptbereich (main) dehnt sich, um den verfügbaren Platz zu füllen */
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/*Für den Subscribe-button*/
+
+.btn1{
+    position: absolute;
+    top: 69%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+              padding: 6px 9px 6px 0 ;
+              
+              border-radius: 15px;
+              border-color: #fa0000;
+              background-color: #fa0000;
+              color: white;
+              font-size: 20px;
+              font-weight: bolder;
+              letter-spacing: 0.5px;
+              vertical-align: middle;
+          }
+  
+  
+          .btn1:hover{
+            color: #fa0000;
+            background-color: white;
+            vertical-align: middle;
+            border: 1.6px solid #fa0000;
+          }
+
+
+          h3 {
+            padding:50px;
+            text-align: center;
+          }
+
+          .body_cnl {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            flex-direction: column;
+            min-height: 100vh; /* Mindesthöhe des gesamten Viewports */
+            background-color: #f2f2f2;
+            display: flex;
+        }
+
+        .text-sub {
+            position: absolute;
+            top: 39%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bolder;
+        }
+
+        .sub-div {
+            position: absolute;
+            top: 50%;
+            left: 53%;
+            transform: translate(-50%, -50%);
+
+                      
+            background-color: #555;
+            border-radius: 5px;
+            padding: 20px; /* Optional: Fügen Sie Padding hinzu, um den Inhalt von der Kante zu trennen */
+            text-align: center; /* Optional: Zentrieren Sie den Text im Inneren der 'sub-div' */
+            margin: 20px; /* Optional: Fügen Sie einen äußeren Abstand hinzu */
+            width: 600px;
+            height: 200px;
+            box-shadow: 0 100px 130px rgba(0, 0, 0, 0.3);
+        }
+
+        .welcome {
+            font-size: 80px;
+            padding: 0 0 2px 0;
+            background: linear-gradient(to right, #0197d6, #000000);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        
+        }
+
+
+
+
+
+img {
+    position: absolute;
+    top: 69%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+              padding: 6px 9px 6px 0 ;
+              
+
+    width: 60px;
+    height: 60px;
+
+    border-radius: 50%;
+
+}
+
+.edit {
+ 
+              padding: 6px 9px 6px 0 ;
+              
+              border-radius: 15px;
+              border-color: #0075fa;
+              background-color: #0075fa;
+              color: white;
+              font-size: 20px;
+              font-weight: bolder;
+              letter-spacing: 0.5px;
+              vertical-align: middle;
+          }
